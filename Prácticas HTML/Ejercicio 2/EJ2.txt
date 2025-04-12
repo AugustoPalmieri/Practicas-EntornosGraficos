@@ -1,0 +1,18 @@
+2-
+
+a- Es un comentario, se puede colocar tanto en el <head> como en el <body> ya que no afectan a la renderización.
+Lo que no se puede hacer es colocar un comentario dentro de una etiqueta.
+
+b- Se encuentra en el <body> ya que es un elemento de estructura, cuenta con una etiqueta de apertura: <div> y una de cierre </div> y un atributo id="bloque1"
+   El div crea un contenedor que agrupa texto, en este caso "Contenido del bloque1" y permite aplicar estilos mediante el id
+
+c- Sirve para mostrar una imagen, pero en este caso no muestra nada porque src esta vacío, pero se reserva 32 x 32 pixeles. 
+   El alt sirve para mostrar texto alternativo y el longdesc es el URL de la descripción larga de la imagen pero está obsoleto en HTML5.
+
+d- La etiqueta <meta> es un metadato, después name= "keywords" define palabras claves para SEO y no muestra nada en pantalla, es solo útil para los motores de busqueda.
+   El expires sirve para indicar cuando caduque la página esto es útil para el caché.
+
+e- <a> sirve para crear un hipervínculo a "Resumen HTML". El href identifica la URL del documento. hreflang es el idioma del recurso rel="help" es el enlace de ayuda.
+
+
+f- Crea una tabla con estructura semántica para mostrar datos organizados en filas y columnas

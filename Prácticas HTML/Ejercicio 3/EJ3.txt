@@ -1,0 +1,55 @@
+3- 
+    A-
+    1- Al hacer clic, abandona la página actual y carga Google en la misma pestaña.
+    2- El atributo target="_blank" fuerza la apertura en nueva pestaña.
+    3- No se muestra nada visible en la página, aunque técnicamente es un enlace.
+    4- Al hacer clic, la página se recarga pero no navega a ningún sitio.
+    5- Desplaza la página hasta el elemento con id="arriba" o name="arriba".
+    6-  Marca la posición en la página a donde saltará el enlace anterior.
+
+    B- 
+    7-Muestra la imagen (im1.jpg) seguida del texto "Click aquí" (enlace).
+    8-Muestra la imagen (ahora clickeable) seguida del texto "Click aquí" (sin enlace).
+    9-Muestra la imagen y el texto "Click aquí" como un solo elemento clickeable.
+    10-Muestra la imagen clickeable y el texto "Click aquí" también como enlace.
+
+    C-
+    11-Lista no ordenada, usa viñetas para cada elemento
+    12-Lista ordenada estándar
+    13-Listas ordenadas independientes pero se fuerza la numeración (value="2", value="3")
+    14-Bloque de texto que simula una lista, semánticamente es incorrecto
+
+    D-
+    15-Encabezados semánticos (<th>) con negrita automática.
+    16-Encabezados simulados (negrita manual) y texto centrado. Ambos muestran los mismos datos, pero la segunda tiene formato adicional 
+    Ambas tablas tienen el mismo contenido de celdas (Celda 1 a Celda 4) y mismo diseño de borde/ancho.
+
+    E-
+    Ambas muestran: Un título, 2 filas de celdas grises vacías (3 columnas cada una) y el mismo ancho (200px).
+    17-El título está fuera del cuerpo de la tabla y se muestra automáticamente centrado arriba de la tabla.
+    18-El título está dentro de la tabla (en una celda con colspan="3")y requiere atributos adicionales (align="center") para centrarlo.
+
+    F-
+    19-Combina 2 filas (rowspan="2").
+    20-Combina 2 columnas (colspan="2").
+
+    G-
+    21-Uso combinado de colspan y rowspan para crear una celda que abarca horizontal y verticalmente.
+    22-Uso de rowspan para fusionar celdas solo verticalmente, además ajusta los bordes precisamente con (cellpadding="0").
+
+    H-
+    23-Envía datos ocultos a PHP, pero contraseña expuesta en HTML.
+    24-Envía claves visibles en URL (GET).
+    25-No envía datos (botón borra campos). Configuración para enviar por correo (mailto:)
+    
+    I-
+    26-Botón personalizado con imagen (logo.jpg) y texto "CLICK AQUÍ" en negrita. Es un botón de tipo <button> que permite HTML interno (imagen + texto).
+    27-Botón estándar con texto "CLICK AQUÍ". Es un <input type="button"> básico. Solo muestra texto (value="...").
+
+    J-
+    28-Los radios están agrupados (name="opcion"), por lo que son excluyentes.Al enviar el formulario, se envia el valor del seleccionado ya sea X o Y.
+    29-Los radios tienen nombres diferentes (name="opcion1" y name="opcion2"), por lo que no están agrupados. Son independientes
+
+    K-
+    30-Selección única (solo se puede elegir una opción).
+    31-Selección múltiple (multiple="multiple").
