@@ -1,0 +1,59 @@
+1-  ¿Qué es HTML, cuándo fue creado, cuáles fueron las distintas versiones y cuál es la última?
+
+HTML(HyperText Markup Language) es un lenguaje de marcado que sirve para elaborar páginas web.
+La historia de HTML comienza en 1980, cuando el físico Tim Berners-Lee creó un sistema de hipertexto para facilitar el intercambio de información entre investigadores. 
+Más de una década después, en 1991, se publicó el primer documento oficial titulado "HTML Tags" (Etiquetas HTML), que definía las bases de este lenguaje.
+
+Evolución del HTML
+HTML 1.0 (1993)
+Fue la primera versión del lenguaje, introduciendo etiquetas básicas para crear documentos estructurados con enlaces y formato de texto simple.
+
+HTML 2.0 (1995)
+Incorporó mejoras como el soporte para formularios y scripts, ampliando las funcionalidades interactivas.
+
+HTML 3.2 (1997)
+Añadió elementos más avanzados, como tablas, frames y estilos en línea, permitiendo diseños más complejos.
+
+HTML 4.0 y 4.01 (1997-1999)
+Introdujo hojas de estilo externas (CSS), capas y marcos. La versión 4.01 corrigió errores de HTML 4.0.
+
+XHTML (2000)
+Basado en XML, ofreció una sintaxis más estricta y modular, mejorando la estructura y compatibilidad con otras tecnologías web.
+
+HTML5 (2014)
+La versión más moderna, con etiquetas semánticas, soporte multimedia nativo, APIs avanzadas y mejoras en interactividad y almacenamiento local.
+2- ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
+
+El W3C (World Wide Web Consortium) establece que la web debe construirse bajo tres principios fundamentales para garantizar que los recursos sean accesibles y universales:
+
+1-Identificación unificada de recursos (URI/URL)
+Un sistema estándar para localizar y nombrar recursos en la web (como direcciones únicas).
+2-Protocolos estandarizados (como HTTP/HTTPS)
+Reglas de comunicación que permiten recuperar y transmitir datos.
+3-Hipertexto (HTML)
+Un lenguaje que permite enlazar documentos entre sí, facilitando la navegación y la estructuración de la información.
+
+3- En las especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿Y obsoleto?
+
+En HTML, un elemento o atributo desaprobado es aquel que no se recomienda utilizar y que podría ser obsoleto en versiones futuras en cambio un elemento o atributo obsoleto es aquél para el cual no hay garantía de soporte por parte de un agente de usuario.
+Los elementos obsoletos han dejado de estar definidos en la especificación, pero se enumeran por motivos históricos en la sección de cambios del manual de referencia.
+Por ejemplo entre los cambios realizados entre HTML 3.2 Y HTML 4.0 se desaprobaron los siguientes elementos: APPLET, BASEFONT, CENTER, DIR, FONT, ISINDEX, MENU, S, STRIKE y U. 
+Además quedaron obsoletos: LISTING, PLAINTEXT y XMP.
+
+4- ¿Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+
+El DTD (Document Type Definition o Definición de Tipo de Documento) es una declaración que especifica las reglas y la estructura permitida en un documento HTML. 
+Define qué elementos, atributos y entidades son válidos, ayudando a los navegadores y validadores a interpretar correctamente el código.
+DTDs contemplados:
+1-DTD Estricto (Strict DTD): Usado por páginas web que excluyen atributos y elementos que la W3C espera ir eliminando a medida que crezca la compatibilidad con CSS.
+2-DTD Transicional (Transitional DTD): Usado por páginas web que incluyen atributos y elementos que la W3C espera ir eliminando a medida que crezca la compatibilidad con CSS.
+3-DTD Conjunto de marcos (Frameset DTD): Usado por páginas web con marcos.
+
+5- ¿Qué son los metadatos y cómo se especifican en HTML?
+Los metadatos son fragmentos de código HTML que describen el contenido de una página web. Se especifican en el encabezado del código HTML, entre las etiquetas <html> y <body>. 
+¿Cómo se especifican?
+Se usan etiquetas meta, también conocidas como meta tags 
+La estructura típica es <meta name="nombre_del_elemento" content="contenido_del_elemento"/> 
+Los principales atributos son NAME, CONTENT, SCHEME y HTTP-EQUIV.
+
+
