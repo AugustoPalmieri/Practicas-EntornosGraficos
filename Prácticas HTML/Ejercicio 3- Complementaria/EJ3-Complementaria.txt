@@ -1,0 +1,10 @@
+3-a ¿Qué formatos soporta?
+HTML5 soporta principalmente estos formatos de video:
+
+MP4 (video/mp4)
+
+WebM (video/webm)
+
+OGG (video/ogg)
+
+3-b Realizado en Video.html

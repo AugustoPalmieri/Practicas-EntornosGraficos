@@ -1,0 +1,10 @@
+2-a- ¿Qué formatos soporta?
+HTML5 soporta principalmente estos formatos de audio:
+
+MP3 (audio/mpeg)
+
+WAV (audio/wav)
+
+OGG (audio/ogg)
+
+2-b  Crear un elemento audio en Audio.html
