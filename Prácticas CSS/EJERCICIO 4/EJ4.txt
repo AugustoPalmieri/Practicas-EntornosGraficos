@@ -1,0 +1,41 @@
+Ejercicio 4 Dadas las siguientes declaraciones:
+ * {color:green; } 
+ a:link {color:gray }
+ a:visited{color:blue }
+ a:hover {color:fuchsia }
+ a:active {color:red } 
+ p {font-family: arial,helvetica;font-size: 10px;color:black; } 
+ .contenido{font-size: 14px;font-weight: bold; }
+
+Comparar:
+<body> 
+<p class="contenido" style="font-weight: normal;">
+Este es un texto ...............</p> 
+<table> 
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr> 
+<tr> 
+<td><a href="http://www.google.com.ar">con un enlace</a></td> 
+</tr> 
+</table> 
+</body> 
+
+<body class="contenido"> 
+<p> Este es un texto................</p> 
+<table> 
+<tr>
+<td>Y esta es una tabla.......</td> 
+</tr> 
+<tr>
+<td><a href="http://www.google.com.ar">con un enlace</a></td> 
+</tr> 
+</table> 
+</body> 
+
+CONCLUSIÓN:
+En la primera versión, el párrafo con clase contentdo muestra texto de 14px con peso normal (por el estilo en línea que anula el bold del CSS), manteniendo el color negro definido para los párrafos. 
+El texto de la tabla y el enlace aparecen en verde por la regla universal (*).
+En la segunda versión, al asignar la clase contentdo al <body>, el párrafo no hereda los estilos (14px y negrita), ya que las reglas específicas para p (10px y negro) tienen prioridad. 
+La tabla y el enlace siguen mostrándose en verde. La diferencia clave radica en que la primera versión aplica parcialmente los estilos al párrafo, mientras que la segunda no logra este efecto debido a la jerarquía de selectores. 
+Ambas versiones mantienen el color verde en los elementos no específicos.

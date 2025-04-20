@@ -1,0 +1,21 @@
+Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto. 
+p.quitar { color: red; }  TEXTO EN ROJO, AFECTA A LOS PARRAFOS CON LA CLASE QUITAR
+
+*.desarrollo { font-size: 8px; } TAMAÑO DE LA FUENTE ES 8 PIXELES, CON EL ASTERISCO SELECCIONAMOS CUALQUIER ELEMENTO CON LA CLASE DESARROLLO.
+
+.importante { font-size: 20px; } TAMAÑO DE LA FUENTE ES DE 20 PIXELES, AFECTA A TODOS LOS ELEMENTOS CON LA CLASE IMPORTANTE
+
+<p class="desarrollo">  En este primer párrafo trataremos lo siguiente: <br />xxxxxxxxxxxxxxxxxxxxxxxxx </p> 
+
+<p class="quitar"> Este párrafo debe ser quitado de la obra… <br />xxxxxxxxxxxxxxxxxxxxxxxxx </p> 
+
+<p> En este otro párrafo trataremos otro tema:<br /> xxxxxxxxxxxxxxxxxxxxxxxxx </p>
+
+<p class="importante"> Y este es el párrafo más importante de la obra… <br />xxxxxxxxxxxxxxxxxxxxxxxxx </ p> 
+
+<h1 class="quitar">Este encabezado también debe ser quitado de la obra</h1>  //No tiene estilo porque el selector p.quitar solo afecta a párrafos.
+
+<p class="quitar importante">Se pueden aplicar varias clases a la vez</p> /Texto rojo por .quitar y tamaño 20px por .importante.
+
+
+
