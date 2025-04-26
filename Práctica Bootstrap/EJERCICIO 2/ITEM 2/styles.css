@@ -1,0 +1,10 @@
+.row > div{
+    padding: 1px;
+    background-color: rgb(104, 21, 143);
+    border: 1px solid coral;
+} 
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
