@@ -1,0 +1,8 @@
+1- En el ejercicio 2-a podemos considerar que el codigo es equivalente ya que la salida por pantalla es 12345678910
+para los tres codigos de ejemplo pero el funcionamiento interno para obtener la secuencia numerica es distinto.
+
+2- En el ejercicio 2-b son equivalentes en salida, pero no en estructura. Los códigos 1 y 2 son los más parecidos usando for estándar, 
+pero el 2 mueve el print al paso del incremento, en cambio, los códigos 3 y 4 usan un break, lo que los hace diferentes internamente.
+
+3- El código utiliza una estructura switch para evaluar el valor de la variable $i y ejecutar diferentes acciones según su valor,
+son equivalentes en funcionalidad y salida el switch y el if-elseif pero dependiendo la ocasion es conveniente usar uno u otro.

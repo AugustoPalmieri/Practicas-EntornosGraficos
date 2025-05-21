@@ -1,0 +1,2 @@
+En el contador.dat seteamos el valor inicial para ese contador y a medida que se ingrese a la página  
+se actualiza ese valor sumandole 1
