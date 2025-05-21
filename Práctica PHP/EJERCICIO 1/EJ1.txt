@@ -1,0 +1,32 @@
+
+VARIABLES
+$a = TRUE;  Tipo boolean
+$b = "xyz"; Tipo string 
+$c = 'xyz'; Tipo string 
+$d = 12;    Tipo integer
+$f Se crea y despues se hace integer
+$g Se crea y despues se hace integer
+
+OPERADORES
+Aritméticos: * (multiplicación), + (suma), ++ (incremento)
+Asignación: =, +=
+Ternario: ? :
+Comparación: is_int(), is_string()
+
+FUNCIONES Y PARAMETROS:
+function doble($i) Función definida por usuario con parámetro $i
+
+gettype($a) Función con parámetro $a
+
+is_int($d) Función con parámetro $d
+
+is_string($a) Función con parámetro $a
+
+Estructuras de control:
+if (is_int($d)) { ... }  Condicional
+
+if (is_string($a)) { ... } Condicional
+
+$d = $a ? ++$d : $d*3; Operador ternario 
+
+Salida por pantalla: booleanstringstringinteger1xyzxyz184444

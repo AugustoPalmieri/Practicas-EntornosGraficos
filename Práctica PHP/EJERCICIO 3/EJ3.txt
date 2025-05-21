@@ -1,0 +1,3 @@
+a- Este código genera una tabla HTML de 5 filas × 2 columnas con celdas vacías
+
+b-Este código implementa un formulario que verifica si un usuario es mayor o menor de edad basándose en la edad ingresada.

@@ -1,0 +1,6 @@
+La salida en pantalla es 
+EL
+    EL CLAVEL BLANCO
+
+Al principio las variables son vacias pero la linea que se ejecuta posterior al include ya contiene al valor de las variables por eso 
+variables pre-include son NULL y despues obtienen el valor correspondiente.
