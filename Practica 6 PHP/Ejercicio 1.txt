@@ -1,0 +1,11 @@
+1. mysqli_connect
+2. tres parametros generalmente necesarios: Servidor (ejemplo localhost), nombre de usuario, contraseña.
+3. Una vez abierta la conexión, se debe seleccionar una base de datos para su uso, mediante la función mysqli_select_db
+4. Esta funcion, debe pasar como parametro el identificador de conexión y el nombre de la base de datos
+5. La función mysqli_query () se utiliza para ejecutar una consulta sobre la base de datos
+6. mysqli_query requiere como parametros el identificador de conexión y la consulta SQL
+7. La cláusula or die() se utiliza para mostrar un mensaje de error si la consulta falla
+8. la función mysqli_error () se puede usar para mostrar el mensaje de error específico del servidor MySQL
+9. Este codigo recorre todas las filas del resultado de una consulta MySQLi y muestra los datos en una tabla HTML, fila por fila. Después libera los recursos y cierra la conexión a la base de datos. 
+
+
