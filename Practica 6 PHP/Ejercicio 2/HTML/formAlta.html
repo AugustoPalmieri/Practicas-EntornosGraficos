@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta Ciudad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Alta de Ciudad</h2>
+        <form action="../PHP/Alta.php" method="post">
+            <div class="mb-3">
+                <label for="ciudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="ciudad" name="ciudad" required>
+            </div>
+            <div class="mb-3">
+                <label for="pais" class="form-label">País</label>
+                <input type="text" class="form-control" id="pais" name="pais" required>
+            </div>
+            <div class="mb-3">
+                <label for="habitantes" class="form-label">Habitantes</label>
+                <input type="number" class="form-control" id="habitantes" name="habitantes" required>
+            </div>
+            <div class="mb-3">
+                <label for="superficie" class="form-label">Superficie (km²)</label>
+                <input type="number" step="any" class="form-control" id="superficie" name="superficie" required>
+            </div>
+            <div class="mb-3">
+                <label for="tieneMetro" class="form-label">¿Tiene metro?</label>
+                <select class="form-select" id="tieneMetro" name="tieneMetro" required>
+                    <option value="1">Sí</option>
+                    <option value="0">No</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar</button>
+            <a href="../Index.html" class="btn btn-secondary ms-2">Volver al menú</a>
+        </form>
+    </div>
+</body>
+</html>
+
