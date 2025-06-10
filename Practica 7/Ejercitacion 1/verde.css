@@ -1,0 +1,35 @@
+/* verde.css */
+
+body {
+    background-color: #e9fce9;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #0b660b;
+}
+
+select, input[type="submit"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #0b660b;
+    border-radius: 5px;
+    background-color: #308030;
+    color: #064d06;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #a7e8a7;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #f1fdf1;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #b2deb2;
+}

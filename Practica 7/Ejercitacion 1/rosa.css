@@ -1,0 +1,35 @@
+/* rosa.css */
+
+body {
+    background-color: #ec9be6;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #ca5da9;
+}
+
+select, input[type="submit"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #611349;
+    border-radius: 5px;
+    background-color: #ca5da9;
+    color: #000000;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ca5da9;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #ca5da9;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ca5da9;
+}

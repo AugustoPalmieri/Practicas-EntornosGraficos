@@ -1,0 +1,35 @@
+/* negro.css */
+
+body {
+    background-color: #504f50;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+}
+
+select, input[type="submit"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #1d1a1c;
+    border-radius: 5px;
+    background-color: #92878f;
+    color: #000000;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #464345;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #646464;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #222122;
+}
